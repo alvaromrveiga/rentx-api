@@ -42,4 +42,4 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.SSH_PASSPHRASE }}
           source: "., !node_modules"
-          target: "test"
+          target: "~/app/rentx-api"
